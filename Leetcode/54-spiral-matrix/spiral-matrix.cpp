@@ -20,21 +20,21 @@ public:
             }
             startingRow++;
 
-
+    //printing endingcol
             for(int i=startingRow;i<=endingRow && count<total_elements;i++){
                 ans.push_back(matrix[i][endingCol]);
                 count++;
             }
             endingCol--;
 
-
+    //printing endingrow
             for(int i=endingCol;i>=startingCol && count<total_elements;i--){
                 ans.push_back(matrix[endingRow][i]);
                 count++;
             }
             endingRow--;
 
-
+    //printing startingcol
             for(int i=endingRow;i>=startingRow && count<total_elements;i--){
                 ans.push_back(matrix[i][startingCol]);
                 count++;
