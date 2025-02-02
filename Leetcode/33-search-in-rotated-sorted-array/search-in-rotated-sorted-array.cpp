@@ -15,7 +15,7 @@ public:
         }
         mid = start + (end-start)/2; // Update mid value with updated start and end values
     }
-    return -1; // element not found then return -1 which is not a valid index
+    return -1; // Element not found then return -1 which is not a valid index
 }
 // pivot finding code
 int pivotElement(vector<int>arr){
