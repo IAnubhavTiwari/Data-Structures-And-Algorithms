@@ -7,5 +7,6 @@ public:
             pos = s.find(part);
         }
         return s;
+        
     }
 };
