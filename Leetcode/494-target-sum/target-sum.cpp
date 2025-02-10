@@ -1,5 +1,6 @@
 class Solution {
 public:
+
  int totalWays = 0;
     int findTargetSumWays(vector<int>& nums, int target) {
          calculateWays(nums, 0, 0, target);
