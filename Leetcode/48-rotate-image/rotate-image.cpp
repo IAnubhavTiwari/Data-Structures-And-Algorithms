@@ -9,9 +9,7 @@ public:
                 arr.push_back(matrix[i][j]);
             }
         }
-        // for(int i=0; i<arr.size();i++){
-        //     cout<<arr[i]<<",";
-        // }
+        
         int x=0;
         while(x<arr.size()){
             for(int i=0;i<col;i++){
