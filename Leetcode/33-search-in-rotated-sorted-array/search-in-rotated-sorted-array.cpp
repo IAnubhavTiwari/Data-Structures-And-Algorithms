@@ -12,6 +12,7 @@ public:
         }
         else{
             start = mid + 1; // Search in right part 
+            
         }
         mid = start + (end-start)/2; // Update mid value with updated start and end values
     }
