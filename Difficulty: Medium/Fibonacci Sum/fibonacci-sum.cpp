@@ -23,7 +23,7 @@ public:
            a = b; // updating the values of a and b jaise age age badhenge
            b = c;
        }
-       return sum % 1000000007;//we have to do modulo with the sum also 
+       return sum % 1000000007; //we have to do modulo with the sum also 
     }
 };
 
