@@ -27,7 +27,7 @@ class Solution {
               }
               
               ans = min(ans , (maxi- mini));     
-              
+              //
               
           }
           return ans;
