@@ -14,7 +14,8 @@ public:
             n = n / 10;
         }
 
-        // Compare the reversed number with the original.
+        // 
+        //Compare the reversed number with the original.
         return revNo == x;
     }
 };
