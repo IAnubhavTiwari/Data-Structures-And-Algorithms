@@ -41,6 +41,7 @@ class Solution {
             {
                 count++;
             }
+            //
         }
         if(count>arr.size()/2)
         {
