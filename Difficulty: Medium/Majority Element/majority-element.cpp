@@ -12,7 +12,6 @@ class Solution {
   public:
     int majorityElement(vector<int>& arr) {
 
-        // your code here
               int candidate=-1;
         int votes=0;
         int count=0;
