@@ -9,6 +9,7 @@ public:
             for(int j=0;j<col;j++){
                 if(matrix[i][j]==0){
                     // int k=i;
+                    //
                     for(int h=0; h<col; h++){
                         if(matrix[i][h]!=0){
                         matrix[i][h]=-999;
