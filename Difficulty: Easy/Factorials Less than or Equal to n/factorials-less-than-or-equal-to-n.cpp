@@ -16,6 +16,7 @@ class Solution {
             nums.push_back(currNum*idx);
             currNum *= idx;
             idx++;
+            //
         }
         return nums;
     }
