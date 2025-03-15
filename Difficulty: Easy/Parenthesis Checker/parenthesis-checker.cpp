@@ -9,6 +9,7 @@ class Solution {
   public:
     bool isBalanced(string& s) {
         // code here
+        //
          if(s.length()<=1){
             return false;
         }
