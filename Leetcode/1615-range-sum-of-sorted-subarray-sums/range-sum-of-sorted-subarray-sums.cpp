@@ -16,5 +16,6 @@ public:
             result=(result +ans[i])%1000000007;
         }
         return result;
+        //
     }
 };
