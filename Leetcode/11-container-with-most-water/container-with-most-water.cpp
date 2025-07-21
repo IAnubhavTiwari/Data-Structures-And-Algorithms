@@ -7,7 +7,6 @@ public:
         int water = 0;
         while(i<j) {
             
-            //start from the smallest one and calculate water
             int h = min(height[i], height[j]);
             int w = j-i;
             int area = h*w;
